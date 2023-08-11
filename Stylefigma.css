@@ -1,0 +1,142 @@
+
+a{
+    text-decoration: none;
+}
+header{
+    width: 1300px;
+    height: 700px;
+    margin: 0 auto;
+    background-color: #F4F7FA;
+}
+nav{
+    width: 100%;
+    height: 30%;
+}
+.nav-top{
+    width: 100%;
+    height: 80%;
+    display: flex;
+
+}
+.nav-logo{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-left: 30px;
+
+}
+.mediumgray{
+    color: #303030;
+    margin-left: 55px;
+    font-size: small;
+}
+.nav-btn{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+}
+.nav-btn h4{
+    color: #303030;
+
+}
+.login{
+    width: 100px;
+    height: 50px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border: 1px solid #273895;
+    background: #273895;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+.login a{
+    color: #F4F7FA;
+}
+.nav-list{
+    width: 100%;
+    height: 20%;
+}
+.n-list{
+    margin-top: 10px;
+    margin-bottom: 0;
+    display: flex;
+    gap: 50px;
+}
+.nlist-items{
+    list-style: none;
+}
+.nlist-items a{
+    color: #000;
+}
+.hero{
+    display: flex;
+    width: 100%;
+    height: 70%;
+}
+.hero-text{
+    margin-left: 30px;
+    width: 50%;
+    height: 100%;
+
+}
+.hero-text h1{
+    font-size:250%;
+    color: #262626;
+
+}
+.h-btn{
+    margin-top: 30px;
+}
+.free{
+    width: 200px;
+    height: 50px;
+    border: 1px solid #273895;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    background: #273895;
+}
+.free a{
+    color: #F4F7FA;
+}
+.hero-img{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    background: url(./image/Creative_process_SVG\ 1.png) 50px 20px no-repeat, url(./image/Group\ 291.png) 185px 33px no-repeat;
+    background-size: contain,30%;
+}
+.h-img{
+    position: absolute;
+    margin: -50px -200px 0 270px ;
+}
+.h-infobox{
+    position: absolute;
+    margin: 432px 0 0 -100px;
+    width: 700px;
+    height: 150px;
+    border: 1px solid #F4F7FA;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    background: #F4F7FA ;
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    width: 1300px;
+    height: 5000px;
+    border: 1px solid;
+    margin: 0 auto;
+}
