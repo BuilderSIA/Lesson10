@@ -128,7 +128,8 @@ nav{
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
     border-bottom-left-radius: 15px;
-    background: #F4F7FA ;
+    background: linear-gradient(200deg, #FFF 0%, #F4F9FF 100%);
+    box-shadow: 0px 4px 100px 0px rgba(208, 218, 227, 0.57);
     display: flex;
     gap: 70px;
     justify-content: center;
@@ -139,9 +140,10 @@ main{
     height: 5000px;
     border: 1px solid;
     margin: 0 auto;
+    background: #F4F7FA;
 }
 .onlinelawyers{
-    margin-top: 100px;
+    margin-top: 250px;
     width: 97%;
     height: 800px;
     border: 1px solid;
@@ -159,9 +161,11 @@ main{
     border: 1px solid;
 }
 .onlaw-text h2{
+    margin-left: 50px;
     color: #303030;
 }
 .onlaw-text p{
+    margin-left: 50px;
     color: #404040;
 }
 .onlaw-numbers{
@@ -200,8 +204,8 @@ main{
     margin-left: 90px;
     margin-top: 25px;
 }
-.fiftyplus{
-    margin: 20px 0 0 50px;
+.fiftyyear{
+    margin: 20px 0 0 30px;
     width: 200px;
     height: 130px;
     border: 1px solid;
@@ -211,4 +215,53 @@ main{
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
     border-bottom-left-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fiftyplus{
+    margin: 20px 0 0 20px;
+    width: 180px;
+    height: 130px;
+    border: 1px solid;
+    background: linear-gradient(200deg, #FFF 0%, #F4F9FF 100%);
+    box-shadow: 0px 4px 100px 0px rgba(208, 218, 227, 0.57);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sirius{
+    margin: 20px 0 0 30px;
+    width: 230px;
+    height: 150px;
+    border: 1px solid;
+    background: linear-gradient(200deg, #FFF 0%, #F4F9FF 100%);
+    box-shadow: 0px 4px 100px 0px rgba(208, 218, 227, 0.57);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lawyer-list{
+    list-style: none;
+    display: flex;
+    gap: 50px;
+}
+.headtext{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lawyer-items{
+    width: 350px;
+    height: 400px;
+    border: 1px solid;
+
 }
